@@ -4,7 +4,7 @@
 
 The distribution of taxi demand points in Tallinn looks like this:
 
-![](images/gmap.png)
+<img src="images/gmap.png"  width="80%" height="80%">
 
 To clusterize the points I used a third-party code that performs K-means clusterization with extra constraints on the minimum (and maximum) number of points in a cluster. The minimum constarint is important to avoid the situation when a distant standalone point gets clustered on its own.
 
